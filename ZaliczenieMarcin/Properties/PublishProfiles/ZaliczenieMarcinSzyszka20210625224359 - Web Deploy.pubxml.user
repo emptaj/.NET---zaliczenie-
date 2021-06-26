@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ten plik jest wykorzystywany przez proces publikowania/pakowania projektu internetowego. Możesz dostosować zachowanie tego procesu
+ poprzez edycję tego pliku MSBuild. Aby dowiedzieć się więcej o tym działaniu, odwiedź stronę https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUoUd+f4FTEKnjOttzhnkJwAAAAACAAAAAAAQZgAAAAEAACAAAABZTWWtXr8CTZU5p12bLgGqKW9hWalY/7esFpcX3v/lywAAAAAOgAAAAAIAACAAAACOF+nvP0PqxWjqa0tRD2Ljhq7khIkpglQ6DZIJTitaDYAAAACqm2Jj1ZmD9S7FPCI8vl+NJ3nKTTaXqQU+UD1Bqjz2l2w7OOSNbUhfM0WjETckNfY1afgdtDrJ9ky+5cnDA03t8hzoWoZMmPPk6VzVkJw8D4VOSXxYau0GA+NhQJjqAYe2y1i9ABr2fkWaEQzAIKI72tRDG0z1Dpwp45K9OqVxWEAAAAAfuzq72bgpz7aR5akIPhzm5i3Y7crEr3sX5dN5CHGIM+D8NFmZKMPya9WMP84hE9FkeM6ryOs0cr+uwLcwEv6F</EncryptedPassword>
+    <History>True|2021-06-25T21:04:51.3002132Z;False|2021-06-25T22:55:30.8678652+02:00;False|2021-06-25T22:54:15.0638351+02:00;False|2021-06-25T22:52:21.8396773+02:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="TaskManagerDatabase">
+      <Value>Data Source=tcp:zaliczeniemarcindbserver.database.windows.net,1433%3bInitial Catalog=ZaliczenieMarcin_db%3bUser Id=emptaj%40zaliczeniemarcindbserver%3bPassword=Szyszka12</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
